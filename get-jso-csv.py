@@ -3,7 +3,8 @@ import csv
 from requests.api import head
 import json
 
-url = 'http://localhost:8000/api/v1/berita/getBerita/'
+apiDetailRecord = 'http://localhost:8000/api/v1/berita/getBerita/'
+apiCountRecord = '' #Masukin Endpointnya disini
 
 headers = {
   "Accept" : "application/json",
@@ -16,11 +17,12 @@ with open ('berita.csv','w', encoding='UTF8', newline='') as f:
   writer.writerow(csvheader)
   # ===============
   idplus = 1
-  for idplus in range(10):
+  jlmhrecord = 10 #isi-jumlah datanya dengan API Count
+  for idplus in range(jlmhrecord):
     idplus += 1
     valueId = {'id': idplus}
-    response = requests.request("GET", url, params=valueId, headers=headers, data={})
-    myjson  = response.json();
+    response = requests.request("GET", apiDetailRecord, params=valueId, headers=headers, data={})
+    myjson  = response.json()
     # ===============  
     ourdata = []
     for x in myjson['data']:
@@ -33,14 +35,16 @@ print("======Done CSV==========")
 
 
 with open('data.json', 'w') as outfile:
-  idplus = 1
+  idplus = 0
   cok = []
-  for idplus in range(3):
+  jlmhrecord = 50 #isi-jumlah datanya dengan API Count
+  for idplus in range(jlmhrecord):
     idplus += 1
     valueId = {'id': idplus}
-    response = requests.request("GET", url, params=valueId, headers=headers, data={})
-    myjson  = response.json();
+    response = requests.request("GET", apiDetailRecord, params=valueId, headers=headers, data={})
+    myjson  = response.json()
     cok = cok + myjson['data']
+
   json.dump(cok, outfile)
 
 print("======Done JSON==========")
