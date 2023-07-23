@@ -1,6 +1,7 @@
 import requests
 import csv
 from requests.api import head
+import json
 
 url = 'http://localhost:8000/api/v1/berita/getBerita/'
 
@@ -23,9 +24,23 @@ with open ('berita.csv','w', encoding='UTF8', newline='') as f:
     # ===============  
     ourdata = []
     for x in myjson['data']:
-      listing = [x['id'],x['judul'],x['kategori'],x['deskripsi'],x['gambar'],['user']]
+      listing = [x['id'],x['judul'],x['kategori'],x['deskripsi'],x['gambar'],x['user']]
       ourdata.append(listing)
   # ===============
+    print(ourdata)
     writer.writerows(ourdata)
-    
+
+
+
+with open('data.json', 'w') as outfile:
+  idplus = 1
+  cok = []
+  for idplus in range(3):
+    idplus += 1
+    valueId = {'id': idplus}
+    response = requests.request("GET", url, params=valueId, headers=headers, data={})
+    myjson  = response.json();
+    cok = cok + myjson['data']
+  json.dump(cok, outfile)
+
 print('done bg')

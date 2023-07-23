@@ -8,14 +8,23 @@
     "user": "admin",
     "created_at": "2023-03-26 11:56:03",
     "updated_at": "2023-03-26 11:56:03"
-  }
-][
+  },
   {
     "id": 2,
     "judul": "Berita tentangBcMYA",
     "kategori": "pqqZB",
     "deskripsi": "Distinctio similique excepturi dolorem velit. Aut officiis blanditiis nostrum numquam ad quas rem. Debitis voluptatem totam voluptas ut quis nostrum modi.",
     "gambar": "Fake10.jpg",
+    "user": "admin",
+    "created_at": "2023-03-26 11:56:03",
+    "updated_at": "2023-03-26 11:56:03"
+  },
+  {
+    "id": 3,
+    "judul": "Berita tentang3dtFR",
+    "kategori": "MMMQ2",
+    "deskripsi": "Molestias vel nostrum eaque modi incidunt dolores ipsum et. Eum occaecati dolorem laborum sequi.",
+    "gambar": "Fake3.jpg",
     "user": "admin",
     "created_at": "2023-03-26 11:56:03",
     "updated_at": "2023-03-26 11:56:03"
