@@ -29,7 +29,7 @@ with open ('berita.csv','w', encoding='UTF8', newline='') as f:
   # ===============
     print(ourdata)
     writer.writerows(ourdata)
-
+print("======Done CSV==========")
 
 
 with open('data.json', 'w') as outfile:
@@ -43,4 +43,4 @@ with open('data.json', 'w') as outfile:
     cok = cok + myjson['data']
   json.dump(cok, outfile)
 
-print('done bg')
+print("======Done JSON==========")
