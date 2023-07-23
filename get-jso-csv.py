@@ -4,20 +4,27 @@ from requests.api import head
 import json
 
 apiDetailRecord = 'http://localhost:8000/api/v1/berita/getBerita/'
-apiCountRecord = '' #Masukin Endpointnya disini
+apiCountRecord = 'http://localhost:8000/api/v1/berita/getBerita/'
 
 headers = {
   "Accept" : "application/json",
   "Content-type" : "application/json"
 }
 
+#Count Record data 
+response = requests.request("GET", apiCountRecord, headers=headers, data={})
+data_json  = response.json()
+total_data = len(data_json['data'])
+print(total_data)
+
+#convert to CSV file
 with open ('berita.csv','w', encoding='UTF8', newline='') as f:
   csvheader = ['id','judul','kategori','deskripsi','gambar','user']
   writer = csv.writer(f)
   writer.writerow(csvheader)
-  # ===============
+  # ================
   idplus = 1
-  jlmhrecord = 10 #isi-jumlah datanya dengan API Count
+  jlmhrecord = total_data #isi-jumlah datanya dengan API Count
   for idplus in range(jlmhrecord):
     idplus += 1
     valueId = {'id': idplus}
@@ -31,20 +38,21 @@ with open ('berita.csv','w', encoding='UTF8', newline='') as f:
   # ===============
     print(ourdata)
     writer.writerows(ourdata)
-print("======Done CSV==========")
+  print("Done CSV bg")
 
 
+#Convert to JSON file
 with open('data.json', 'w') as outfile:
   idplus = 0
   cok = []
-  jlmhrecord = 50 #isi-jumlah datanya dengan API Count
+  jlmhrecord = total_data #isi-jumlah datanya dengan API Count
   for idplus in range(jlmhrecord):
     idplus += 1
     valueId = {'id': idplus}
     response = requests.request("GET", apiDetailRecord, params=valueId, headers=headers, data={})
     myjson  = response.json()
+
     cok = cok + myjson['data']
 
   json.dump(cok, outfile)
-
-print("======Done JSON==========")
+  print("Done JSON bg")
