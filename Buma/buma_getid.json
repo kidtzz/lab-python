@@ -1,0 +1,66 @@
+[
+  {
+    "message_type": "compdetailssummary",
+    "message_response": {
+      "compdetailssummary": {
+        "asset_summary": {
+          "noncommercial_software": "0",
+          "commercial_software": "9",
+          "total_software": "81",
+          "prohibited_software": "0",
+          "total_hardware": "30"
+        },
+        "computer_os_summary": {
+          "os_version": "10.0.19045",
+          "product_id": "00355-63244-86853-AAOEM",
+          "os_name": "Windows 10 Professional Edition (x64)",
+          "registered_to": "Dell",
+          "os_cd_key": "PK72N-HFQ6V-2BJQR-34B9K-BKM6G"
+        },
+        "computer_disk_summary": {
+          "percent_used": "19.831224",
+          "total_size": "474",
+          "percent_free": "80.16878",
+          "used_space": "94",
+          "free_space": "380"
+        },
+        "computer_summary": {
+          "computer_name": "P105010010277",
+          "primary_owner": "Dell",
+          "domain_name": "bukitmakmur"
+        },
+        "computer_network_adapter_summary": [
+          {
+            "dhcp_status": "Enabled",
+            "adapter_name": "[00000001] Intel(R) Ethernet Connection (17) I219-LM",
+            "mac_address": "6C:3C:8C:21:FA:2E",
+            "dhcp_server": "10.4.17.21",
+            "ip_address": "10.4.14.72, fe80::d1b7:6e7c:730:4149",
+            "gateway": "10.4.14.1"
+          },
+          {
+            "dhcp_status": "Enabled",
+            "adapter_name": "[00000002] Intel(R) Wi-Fi 6E AX211 160MHz",
+            "mac_address": "-",
+            "dhcp_server": "--",
+            "ip_address": "--",
+            "gateway": "--"
+          }
+        ],
+        "computer_hardware_summary": {
+          "memory": "16384",
+          "shipping_date": "Mar 1, 2023",
+          "device_model": "OptiPlex 5000",
+          "device_type": "Desktop",
+          "serial_number": "394M7W3",
+          "processor": "12th Gen Intel(R) Core(TM) i7-12700",
+          "device_manufacturer": "Dell Inc.",
+          "warranty_expiry_date": "Mar 24, 2026",
+          "product_number": "--"
+        }
+      }
+    },
+    "message_version": "1.4",
+    "status": "success"
+  }
+]

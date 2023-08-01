@@ -29,10 +29,13 @@ else:
   print('Success')
  
 
+
 #=============================================================================
 #untuk get Data
-apiDetailRecord = 'http://localhost:8000/api/v1/berita/getBerita/' #detail record
-apiCountRecord = 'http://localhost:8000/api/v1/berita/getBerita/' #check jlmh record
+apiDetailRecord = 'http://localhost:8000/api/v1/berita/getBerita/' 
+#detail record
+apiCountRecord = 'http://localhost:8000/api/v1/berita/getBerita/' 
+#check jlmh record
 
 headers = {
   "Accept" : "application/json",
@@ -51,7 +54,7 @@ print(total_data)
 
 #=============================================================================
 #convert to CSV file
-with open ('berita.csv','w', encoding='UTF8', newline='') as f:
+with open ('Buma/berita.csv','w', encoding='UTF8', newline='') as f:
   csvheader = ['id','judul','kategori','deskripsi','gambar','user']
   writer = csv.writer(f)
   writer.writerow(csvheader)
@@ -75,7 +78,7 @@ with open ('berita.csv','w', encoding='UTF8', newline='') as f:
 
 #=============================================================================
 #Convert to JSON file
-with open('data.json', 'w') as outfile:
+with open('Buma/data.json', 'w') as outfile:
   idplus = 0
   cok = []
   jlmhrecord = total_data  #jumlah datanya 
@@ -89,3 +92,6 @@ with open('data.json', 'w') as outfile:
 
   json.dump(cok, outfile)
   print("Done JSON bg")
+
+
+
