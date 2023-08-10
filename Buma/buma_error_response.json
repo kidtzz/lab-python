@@ -1,0 +1,9 @@
+[
+  {
+    "error_description": "Provided Resource is not managed under EndpointCentral.",
+    "message_type": "compdetailssummary",
+    "error_code": "1001",
+    "message_version": "1.4",
+    "status": "error"
+  }
+]

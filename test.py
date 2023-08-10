@@ -29,11 +29,19 @@
 # else:
 #   print('Renek BRo')
 
-idplus = 1
-jlmhrecord = 100 #ini gmn caranya biar increment
-if jlmhrecord != 100: 
-  for idplus in range(jlmhrecord):
-    idplus += 1
-    valueId = {'resid': idplus}
-    print("asd", idplus, jlmhrecord)
-    # bagian sini perlu diambah
+idplus = 10
+jlmhrecord = 15 #edit-jumlah record
+
+for i in range(idplus, jlmhrecord):
+  print("hit1 ke-", idplus)
+  myjson  = ["beton", "iki","hehe"]
+
+  for x in range(len(myjson)):
+    if not myjson:
+      for i in myjson:
+        print("ahshd",myjson)
+        break
+      break
+    else:
+      break
+  idplus += 1

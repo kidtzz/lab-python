@@ -2,6 +2,7 @@
   {
     "message_type": "compdetailssummary",
     "message_response": {
+      "status_code": 200,
       "compdetailssummary": {
         "asset_summary": {
           "noncommercial_software": "0",
