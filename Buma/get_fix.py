@@ -18,7 +18,7 @@ with open ('data-buma.csv','w', encoding='UTF8', newline='') as f:
   writer = csv.writer(f)
   writer.writerow(csvheader)
   idplus = 43250
-  jlmhrecord = 43270 #edit-jumlah record
+  jlmhrecord = 43260 #edit-jumlah recor
 
   for i in range(idplus, jlmhrecord):
     valueId = {'resid': idplus}
