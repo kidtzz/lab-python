@@ -1,5 +1,101 @@
-tes2222,tes2,tes3
-beton sih,Microsoft redistributable runtime DLLs VS2005 SP1(x86)
-001,Microsoft redistributable runtime DLLs VS2010 SP1 (x86)
-kah,Microsoft redistributable runtime DLLs VS2010 SP1 (x86)
-sdjjskdkj,Microsoft redistributable runtime DLLs VS2010 SP1 (x86)
+user_name,managed_software_id,software_id,software_name,software_version,architecture,manufacturer_id,manufacturer_name
+--,13,13,Microsoft redistributable runtime DLLs VS2005 SP1(x86),8.0.50727.4053,32-bit,25,SAP
+--,33,33,Microsoft redistributable runtime DLLs VS2010 SP1 (x86),10.0.40219.1,32-bit,25,SAP
+--,56,56,Microsoft Visual C++ 2005 Redistributable,8.0.61001,32-bit,20,Microsoft Corporation
+--,74,74,Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219,10.0.40219,32-bit,20,Microsoft Corporation
+--,80,80,Windows Internet Explorer 11,11.789.19041.0,32-bit,20,Microsoft Corporation
+--,128,128,Windows Internet Explorer 11(64 bit),11.789.19041.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Administrator,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+adr.sdeskit,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+bagus.ilahi,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+m.frizaldei,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Dell,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,13,13,Microsoft redistributable runtime DLLs VS2005 SP1(x86),8.0.50727.4053,32-bit,25,SAP
+--,33,33,Microsoft redistributable runtime DLLs VS2010 SP1 (x86),10.0.40219.1,32-bit,25,SAP
+--,56,56,Microsoft Visual C++ 2005 Redistributable,8.0.61001,32-bit,20,Microsoft Corporation
+--,74,74,Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219,10.0.40219,32-bit,20,Microsoft Corporation
+--,80,80,Windows Internet Explorer 11,11.789.19041.0,32-bit,20,Microsoft Corporation
+--,128,128,Windows Internet Explorer 11(64 bit),11.789.19041.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Administrator,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+adr.sdeskit,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+bagus.ilahi,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+m.frizaldei,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Dell,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,13,13,Microsoft redistributable runtime DLLs VS2005 SP1(x86),8.0.50727.4053,32-bit,25,SAP
+--,33,33,Microsoft redistributable runtime DLLs VS2010 SP1 (x86),10.0.40219.1,32-bit,25,SAP
+--,56,56,Microsoft Visual C++ 2005 Redistributable,8.0.61001,32-bit,20,Microsoft Corporation
+--,74,74,Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219,10.0.40219,32-bit,20,Microsoft Corporation
+--,80,80,Windows Internet Explorer 11,11.789.19041.0,32-bit,20,Microsoft Corporation
+--,128,128,Windows Internet Explorer 11(64 bit),11.789.19041.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Administrator,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+adr.sdeskit,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+bagus.ilahi,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+m.frizaldei,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Dell,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,13,13,Microsoft redistributable runtime DLLs VS2005 SP1(x86),8.0.50727.4053,32-bit,25,SAP
+--,33,33,Microsoft redistributable runtime DLLs VS2010 SP1 (x86),10.0.40219.1,32-bit,25,SAP
+--,56,56,Microsoft Visual C++ 2005 Redistributable,8.0.61001,32-bit,20,Microsoft Corporation
+--,74,74,Microsoft Visual C++ 2010  x86 Redistributable - 10.0.40219,10.0.40219,32-bit,20,Microsoft Corporation
+--,80,80,Windows Internet Explorer 11,11.789.19041.0,32-bit,20,Microsoft Corporation
+--,128,128,Windows Internet Explorer 11(64 bit),11.789.19041.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Administrator,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+adr.sdeskit,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+bagus.ilahi,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+m.frizaldei,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+Dell,143,143,Microsoft Pay,2.4.18324.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation
+--,149,149,Xbox Game Speech Window,1.21.13002.0,64-bit,20,Microsoft Corporation

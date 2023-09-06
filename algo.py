@@ -1,5 +1,3 @@
-
-
 def test(num):
   i = 0
   for i in range(i,num):
@@ -11,7 +9,6 @@ def test(num):
         print("fizz buzz")
     print(i)
 
-
 def Al_kelulusan():
   nama = input("nama:")
   nilai = int(input("nilai :"))
@@ -21,7 +18,7 @@ def Al_kelulusan():
   else:
     ket = "tidak lulus"
   print("nama km ", nama,"kamu sekarang ", ket, "nilai km ", nilai)
-  
+
 
 def tampilkanAngka (batas, i = 1):
   print(f'Perulangan ke {i}')
@@ -30,17 +27,31 @@ def tampilkanAngka (batas, i = 1):
     # di sini lah rekursifitas itu terjadi
     tampilkanAngka(batas, i + 1)
 
-# memanggil fungsi tampilkanAngka
-# untuk pertama  kali
-tampilkanAngka(10)
+# tampilkanAngka(10)
 
-def tampilkanAngka (batas, i = 1):
-  if (i < batas):
-    # di sini lah rekursifitas itu terjadi
-    tampilkanAngka(batas, i + 1)
 
-  print(f'Perulangan ke {i}')
+hm = 5
+def ini_three():
+  for row in range(hm):
+    for col in range(row, hm):
+      print("",end='')
+    for col in range(row+1):
+      print('*',end='')
+    print()
+  for row in range(hm-1):
+    for col in range(row,hm-1):
+      print('*',end='')
+    for col in range(row+1):
+      print("",end='')
+    print()
 
-# memanggil fungsi tampilanAngka
-# untuk pertama  kali
-tampilkanAngka(10)
+
+def perulangan():
+  for i in range(1, 6):
+    print('perulangan luar [i]:',i)
+    for j in range(1,6):
+      print('perulangan dalam [i, j]:',i,',',j)
+
+
+perulangan()
+ini_three()
